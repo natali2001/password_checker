@@ -18,7 +18,7 @@ if not re.search("[0-9]", password):
 if not re.search("[!?_@$]", password):
         print("Password must consist punctuation numbers")
 else:
-        print("Valid Password")
+        print("Strong Password")
     
 
 
