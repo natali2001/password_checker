@@ -20,7 +20,7 @@ if not re.search("[!?_@#%()*+'-/,.:;<=>{|}^~$]", password):
         k = -1
 
 if (k>-1):
-    print('Strong Password')
+    print('Strong password')
 
 if (k==-1):
     print ('Weak password:')
