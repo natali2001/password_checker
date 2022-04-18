@@ -16,7 +16,7 @@ if not re.search("[0-9]", password):
         k = -1
         
 if not re.search("[!?_@#%()*+'-/,.:;<=>{|}^~$]", password):
-        print("- Password must contain at least one punctuation character !?_@#%()*+'-/,.:;<=>{|}^~$ ")
+        print("- Password must contain at least one punctuation character (!?_@#%*+'-/\,.:;<=>{|}^~$) ")
         k = -1
 
 if (k>-1):
